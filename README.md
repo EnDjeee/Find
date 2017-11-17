@@ -5,9 +5,12 @@ A simplified version of bash's find tool written in C
 - make
 # Run
 ## some examples:
-```
-- ./1 . -print  //prints every files in current directory
-- ./1 . -delete //deletes every files in current directory
-- ./1 . -type -d -print //prints every directories in current directory
-- ./1 . -type -f -delete //deletes every regular files in current directory
+```shell-script
+- ./1 . -print  
+- ./1 . -delete 
+- ./1 . -type d -print 
+- ./1 . -type f -delete 
+- ./1 . -maxdepth 2 -print
+- ./1 . -maxdepth 3 -type f -delete
+- ./1 . -maxdepth 1 -gtsize 1000 -type d
 ```
