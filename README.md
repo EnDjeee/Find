@@ -1,8 +1,8 @@
 # Find
 A simplified version of bash's find tool written in C
 # Compile
-- Position yourself in the src directory
-- make
+1. Position yourself in the src directory
+1. make
 # Run
 ## some examples:
 ```shell-script
